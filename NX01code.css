@@ -1,0 +1,67 @@
+
+	body {background-color:rgb(224, 5, 5)}
+	h1   {color:blue;}
+	p    {color:Red}
+	.std-css-demobox {
+		border: 30px solid rgb(28, 214, 44) ;
+		border-radius: 20px;
+		padding: 10px;
+		background-color: #21b5e2;
+		color: #000;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+/* ______________________________________________________________________________________________________________________________________________________________________________________ */
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>text</title><style type="text/css">
+			html, page { padding:0; margin:0;}
+			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
+			h1,h2,h3,h4,h5,h6 {color:darkred;}
+			page { background:#fff;}
+			header, footer, .top-nav, content, content contentbar, content sidebar { margin:0; padding:0;}
+						
+			/* Logo */
+			logo { padding:0; width:auto; float:left;}
+			logo h1 a, h1 a:hover { color:darkred; text-decoration:none;}
+			logo h1 span { color:#f8dbdb;}
+
+			/* Header */
+			header { background:#fff; }
+			header-inner { margin:0 auto; padding:0; width:970px;}
+			
+			/* Feature */
+			.feature { background:red;padding:18px;}
+			.feature-inner { margin:auto;width:970px; }
+			.feature-inner h1 {color:#f8dbdb;font-size:32px;}
+			
+			/* Menu */
+			top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right;}
+			top-nav ul { list-style:none; padding:0; height:37px; float:left;}
+			top-nav ul li { margin:0; padding:0 0 0 8px; float:left;}
+			top-nav ul li .a { display:block; margin:0; padding:8px 20px; color:red; text-decoration:none;}
+			top-nav ul li.active a, #top-nav ul li a:hover { color:#f8dbdb;}
+			
+		
+			
+			/* Footerblurb */
+			footer-blurb { background:#f8dbdb;color:red;}
+			footer-blurb-inner { margin:0 auto; width:922px; padding:24px;}
+			footer-blurb .column { margin:0; text-align:justify; float:left;width:250px;padding:0 24px;}
+			
+			/* Footer */
+			footer { background:#fff;}
+			footer-inner { margin:auto; text-align:center; padding:12px; width:922px;}
+			footer-a {color:red;text-decoration:none;}
+			
+			/* Clear both sides to assist with div alignment  */
+			.clr{ clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+		
+		
+			}
+
+
+
+
+
+
