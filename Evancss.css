@@ -1,0 +1,17 @@
+
+
+body {
+  background-color: rgb(230, 207, 173);
+  border: 50px solid black 
+}
+
+h1 {
+  color: rgb(221, 32, 32);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  color: rgb(221, 32, 32) 
+}
+
