@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(230, 207, 173);
-  border: 50px solid black 
+  border: 50px solid blue 
 }
 
 h1 {
@@ -14,4 +14,5 @@ p {
   font-family: verdana;
   color: rgb(221, 32, 32) 
 }
+
 
