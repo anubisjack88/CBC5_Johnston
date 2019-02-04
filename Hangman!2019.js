@@ -1,4 +1,4 @@
-// My Array of words. This will create a word bank.
+// This word bank is the master word list that will be used as an key.
 let words = [
   "Pig",
   "monkey",
@@ -14,94 +14,46 @@ let words = [
   "Master",
   "python"
 ];
+//This section of code is for my logic for Hangman!2019.
+//This section also can be overwriten to change functions.
+let alphabet = ("a", "b","c","d","e","f","g","h","i","j",
+"k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
+let guess; [5]
+let letters = [words];
+let wrongLetters = [];
+let counter = 5;
+let lives = 3;
+let Pig = "a"
 const newLocal = words[Math.random() * words.length];
-
-console.log("Dog, fish, cat");(Math.random() * words.length);
-console.log(words[0]);(Math.random)
+console.log("monkey, code, Master");(Math.random() * words.length);
+//This section is to test the numerical value assigned to the 'words' bank.
+console.log(words[1]);(Math.random)
 console.log(words[Math.floor(Math.random()*13)]);
+console.log(words)
+//This section is for alerting the player conditions in the game (not using the actual "alert" function).
+//Look up how to nest for loops and how to access and object of an array.
+for(let i = 0; i < 1; i++){
+object.("click", "hangman");}
+
+// // Create a nested loop 
+// while(let[0]=);( < 0);
+//   console.log("You Win!");
+// } 
+// //Create a for loop
+// for(let i = 0; i < 3; i++)
+// onclick("You are out of life!")
+
+// word = ["Pig","monkey", "amazing","Tango"];
+// let first = words[words.length [1]
 
 
-// // This is  the amswer answerArrayvar answerArray = [];
-// for (let i = 0; i < word.length; i++) {
-//   answerArray[i] = "";
-// }
 
-// let remainingLetters = word.length;
 
-// // This section is a  game loop
 
-// while (remainingLetters > 0) {
-//   // Show player progress alert(answerArray.join(" "));
 
-//   // Get a guess from the player
 
-//   let guess = prompt("Guess a letter, or click Cancel to stop playing.");
-//   if (guess === null) {
-//     // Exit the game loop
-//     break;
-//   } else if (guess.length !== 1) {
-//     alert("Please enter a single letter dude.");
-//   } else {
-//     // Update the game state with the guess
 
-//     for (let j = 0; j < word.length; j++) {
-//       if (word[j] === guess) {
-//         answerArray[j] = guess;
-//         remainingLetters--;
-//       }
-//     }
-//   }
 
-//   // The end of the game loop
-// }
-
-// // Show the answer and you did it!
-
-// alert(answerArray.join(" "));
-// alert("Good job! The answer was " + word);
-
-// // A list of the funtions used.
-
-// let word = pickWord();
-// let answerArray = setupAnswerArray(word);
-// let remainingLetters = word.length;
-// let pickWord = function () {
-//   // Return a random word
-// };
-
-// let setupAnswerArray = function (word) {
-//   // Return the answer array
-// };
-
-// let showPlayerProgress = functin(answerArray); {
-//   //Use alert to show the player their progress
-// };
-
-// let getGuess = function () {
-//   // Use prompt to get a guess
-// };
-
-// let updateGameState = function (guess, word, answerArray) {
-//   // Update answerArray and return a number showing how many times the guess appears in the word so remainingLetters can be updated
-// };
-
-// let showAnswerAndCongratulatePlayer = function (answerArray) {
-//   // Use alert to show the answer and tell the player well done.
-// };
-// while (remainingLetters > 0) {
-//   showPlayerProgress(answerArray);
-//   let guess = getGuess();
-//   if (guess === null) {
-//     break;
-//   } else if (guess.length !== 1) {
-//     alert("Please enter a single letter.");
-//   } else {
-//     let correctGuesses = updateGameState(guess, word, answerArray);
-//     remainingLetters -= correctGuesses;
-//   }
-// }
-
-// showAnswerAndCongratulatePlayer(answerArray);
 
 
 
