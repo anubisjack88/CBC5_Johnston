@@ -34,6 +34,7 @@ echo substr_count($NX01, 'test');
 $h = array_fill_keys($j, 'NX02');
 print_r($h);
 
+
 switch ($j) {
     case 0:
     echo "j equals 0";
