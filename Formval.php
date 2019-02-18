@@ -17,7 +17,7 @@ Website: <input type="text" name="website">
 <br><br>
 Comment Section: <textarea name="comment" rows="5" cols="40"></textarea> 
 <br><br>
-Gender:
+Race:
 <input type="radio" name="gender" value="female">Female
 <input type="radio" name="gender" value="male">Male 
 <input type= "radio" name="gender" value="Do not wish to disclose.">Do not wish to disclose.
@@ -32,7 +32,8 @@ $name = $email = $gender = $comment = $website = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = test_input($_POST["name"]);
     $email = test_input($_POST["email"]);
-    $comment = test_input($_POST["gender"]);
+  
+  $comment = test_input($_POST["gender"]);
 }
 function test_input($data) {
     $data = trim($data);
