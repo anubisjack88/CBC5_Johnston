@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic-XHR.html!2019</title>
+</head>
+
+<label>Your name:
+        <input type="text" id="ajaxTextbox" />
+      </label>
+      <span id="ajaxButton" style="cursor: pointer; text-decoration: underline">
+        Make a request
+      </span>
+      
+      <script>
+        (function() {
+        var httpRequest;
+        document.getElementById("ajaxButton").onclick = function() {
+            var userName = document.getElementById("ajaxTextbox").value;
+            makeRequest('https://theclubhouse-223021.appspot.com/',userName);
+        };
+        function makeRequest(url, userName) {
+          httpRequest = new XMLHttpRequest();
+          if (!httpRequest) {
+            alert('All hope is lost... :( Cannot create an XMLHTTP instance');
+            return false;
+          }
+          httpRequest.onreadystatechange = alertContents;
+          httpRequest.open('POST', url);
+          httpRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+          httpRequest.send('userName=' + encodeURIComponent(userName));
+        }
+        function alertContents() {
+          if (httpRequest.readyState === XMLHttpRequest.DONE) {
+            if (httpRequest.status === 200) {
+              var response = JSON.parse(httpRequest.responseText);
+              alert(response.computedString);
+            } else {
+              alert('Houston we have a problem with the request.');
+            }
+          }
+        }
+      })();
+      </script>
+<body>
+<?php 
+
+</body>
+
+
+
+</html>
