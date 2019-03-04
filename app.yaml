@@ -1,0 +1,6 @@
+runtime: php55
+
+handlers:
+
+- url: /.*
+  script: api.php
